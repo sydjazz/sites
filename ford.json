@@ -1,8 +1,9 @@
 {
 	"Hackerone": "https://hackerone.com/ford",{
-		"Website": "",
+		"Scope": "*ford.com","*.lincoln.com","*.quicklane.com","*.motorcraft.com","*.omnicraftautoparts.com",""
 		"Username": "",
 		"Password": "",
+		"All": true,
 		"Vulnerabilties": {
 			"CWE-770": ,
 			"CWE-129": ,
