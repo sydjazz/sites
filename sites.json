@@ -1,1 +1,3 @@
-./ford.json
+{
+  "sites": {"ford.json","dod.json"}
+}
