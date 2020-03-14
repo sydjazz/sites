@@ -1,3 +1,5 @@
+https://docs.hackerone.com/hackers/types-of-weaknesses.html
+https://hackerone.com/directory/programs?order_direction=DESC&order_field=resolved_report_count
 {
 	"Hackerone": "https://hackerone.com/ford",{
 		"Website": "",
@@ -11,9 +13,9 @@
     			"Insecure Direct Object Reference": true
 		}
 	}
-	"Hackerone": "https://hackerone.com/verizonmedia",{
-	}
 }
+
+
 “Website”: https://hackerone.com/ford, “Username” : “”, “Password”: “”, 	capec-103	UI Redressing (Clickjacking)	In a clickjacking attack the victim is tricked into unknowingly initiating some action in one system while interacting with the UI from seemingly completely different system.
 	CAPEC-209	XSS Using MIME Type Mismatch	An adversary creates a file with scripting content but where the specified MIME type of the file is such that scripting is not expected. The adversary tricks the victim into accessing a URL that responds with the script file. Some browsers will detect that the specified MIME type of the file does not match the actual type of its content and will automatically switch to using an interpreter for the real content type. If the browser does not invoke script filters before doing this, the adversary's script may run on the target unsanitized, possibly revealing the victim's cookies or executing arbitrary script in their browser.
 	capec-233	Privilege Escalation	An adversary exploits a weakness enabling them to elevate their privilege and perform an action that they are not supposed to be authorized to perform.
